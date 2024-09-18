@@ -2,93 +2,93 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моє хобі - Фотографія</title>
+    <title>Мій щоденник пригод</title>
     <style>
+        /* Загальні стилі */
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
         }
+
+        /* Стилі для заголовку */
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
             text-align: center;
-            padding: 1rem;
         }
-        nav {
-            background-color: #f4f4f4;
-            padding: 0.5rem;
-        }
+
+        /* Стилі для навігації */
         nav ul {
-            list-style-type: none;
+            background-color: #333;
+            overflow: hidden;
+            list-style: none;
+            margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
         }
+
         nav ul li {
-            display: inline;
-            margin-right: 10px;
+            margin: 0 15px;
         }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Стилі для основного контенту */
         main {
-            width: 80%;
-            margin: auto;
             padding: 20px;
         }
-        section {
+
+        article {
             margin-bottom: 20px;
         }
-        article {
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        article img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        }
+
+        /* Стилі для футера */
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #4CAF50;
+            color: white;
             text-align: center;
-            padding: 1rem;
-            margin-top: 20px;
+            padding: 10px;
         }
+
     </style>
 </head>
 <body>
-    <span>
-        <h1>Моє хобі - Фотографія</h1>
-    </span>
-
-    <span>
+    <header>
+        <h1>Мій щоденник пригод</h1>
+    </header>
+    <nav>
         <ul>
-            <li><a href="#home">Головна</a></li>
-            <li><a href="#gallery">Галерея</a></li>
-            <li><a href="#about">Про мене</a></li>
-            <li><a href="#contact">Контакти</a></li>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="about.html">Про мене</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
         </ul>
-    </span>
-
-    <span>
-        <span>
-            <h2>Мої останні фотографії</h2>
-            <span>
-                <h3>Захід сонця на морі</h3>
-                <img src="https://ecooboi.com.ua/files/images/products/ecooboi-zakat-na-more-1560773572.jpg" alt="Захід сонця на морі">
-                <p>Ця фотографія була зроблена минулого літа під час відпочинку на морі. Я довго чекав ідеального моменту, коли сонце торкнеться горизонту.</p>
-            </span>
-            <span>
-                <h3>Міський пейзаж</h3>
-                <img src="https://ukrainart.com.ua/image/data/product_images/1365523605_dc70613bb3fa6ca1218658d80a4c7c638100_b.jpg" alt="Міський пейзаж">
-                <p>Цей знімок я зробив рано вранці, коли місто тільки прокидалося. Ранкове світло надало будівлям особливого відтінку.</p>
-            </span>
-        </span>
-    </span>
-
-    <span>
-        <p>&copy; 2023 Моє хобі - Фотографія. Всі права захищені.</p>
-    </span>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2>Моя перша пригода</h2>
+                <p>Тут опис першої пригоди...</p>
+            </article>
+            <article>
+                <h2>Моя друга пригода</h2>
+                <p>Тут опис другої пригоди...</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Діма</p>
+    </footer>
 </body>
 </html>
